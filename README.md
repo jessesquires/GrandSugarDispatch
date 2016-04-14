@@ -1,2 +1,4 @@
 # GrandSugarDispatch
-Syntactic sugar for Grand Central Dispatch (GCD)
+
+*Syntactic sugar for Grand Central Dispatch (GCD)*
+
