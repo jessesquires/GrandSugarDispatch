@@ -5,7 +5,7 @@
 
 ## About
 
-> TODO
+This library is a lightweight *Swifty* wrapper around GCD.
 
 ## Requirements
 
