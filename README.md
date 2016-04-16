@@ -50,7 +50,7 @@ import GrandSugarDispatch
 
 ## Unit tests
 
-There's a suite of unit tests for `GrandSugarDispatch.framework`. To run them, open `GrandSugarDispatch.xcodeproj`, select the `GrandSugarDispatchTests` scheme, then &#x2318;-u.
+There's a suite of unit tests for `GrandSugarDispatch.framework`. To run them, open `GrandSugarDispatch.xcodeproj`, select the `GrandSugarDispatchTests` scheme, then &#x2318;-U.
 
 These tests are well commented and serve as further documentation for how to use this library.
 
