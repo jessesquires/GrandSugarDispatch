@@ -48,6 +48,24 @@ import GrandSugarDispatch
 
 > TODO
 
+## Usage
+
+```swift
+dispatch(queue: .main) {
+    // Do something special on the main queue
+    // The concurrency is automatically set to .async
+}
+
+dispatch(queue: .main, concurrency: .sync) {
+    // Same as above, but with another concurrency
+}
+
+dispatch(queue: .background, concurrency: .delay(0.3)) {
+    // Performs an action on the background queue
+    // after a 0.3 second delay
+}
+```
+
 ## Unit tests
 
 There's a suite of unit tests for `GrandSugarDispatch.framework`. To run them, open `GrandSugarDispatch.xcodeproj`, select the `GrandSugarDispatchTests` scheme, then &#x2318;-U.
