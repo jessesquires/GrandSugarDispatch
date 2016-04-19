@@ -1,0 +1,4 @@
+[submodule "GrandSugarDispatch"]
+	path = GrandSugarDispatch
+	url = https://github.com/jessesquires/GrandSugarDispatch.git
+	branch = develop
