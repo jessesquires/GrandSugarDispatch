@@ -89,7 +89,13 @@ public enum DispatchQueue {
     }
 }
 
+/**
+ Submits a closure for execution on the specified dispatch queue using the specified concurrency type.
 
+ - parameter queue:       The queue on which to submit the closure.
+ - parameter concurrency: The concurrency type for the queue.
+ - parameter closure:     The closure to submit to the dispatch queue.
+ */
 public func dispatch(queue queue: DispatchQueue, concurrency: Concurrency = .async, closure: () -> Void) {
 
     switch concurrency {
