@@ -13,7 +13,7 @@
     <a title="Functions  Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="index.html">GrandSugarDispatch Docs</a> (62% documented)</p>
+        <p><a href="index.html">GrandSugarDispatch Docs</a> (68% documented)</p>
         <p class="header-right"><a href="https://github.com/jessesquires/GrandSugarDispatch"><img src="img/gh.png"/>View on GitHub</a></p>
       </div>
     </header>
@@ -71,8 +71,62 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Submits a closure for execution on the specified dispatch queue using the specified concurrency type.</p>
 
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">dispatch</span><span class="p">(</span><span class="n">queue</span> <span class="nv">queue</span><span class="p">:</span> <span class="kt">DispatchQueue</span><span class="p">,</span> <span class="nv">concurrency</span><span class="p">:</span> <span class="kt">Concurrency</span> <span class="o">=</span> <span class="o">.</span><span class="k">as</span><span class="n">ync</span><span class="p">,</span> <span class="nv">closure</span><span class="p">:</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>queue</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The queue on which to submit the closure.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>concurrency</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The concurrency type for the queue.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>closure</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The closure to submit to the dispatch queue.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
