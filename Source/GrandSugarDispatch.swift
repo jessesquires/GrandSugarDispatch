@@ -25,7 +25,7 @@ public enum Concurrency {
     case sync
     case barrierAsync
     case barrierSync
-    case delay(Double)
+    case delay(seconds: Double)
 }
 
 
@@ -73,7 +73,7 @@ public func dispatch(queue queue: DispatchQueue, concurrency: Concurrency = .asy
         dispatch_barrier_async(queue.dispatchQueue, closure)
     case .barrierSync:
         dispatch_barrier_sync(queue.dispatchQueue, closure)
-    case .delay(let delay):
-        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, Int64(delay * Double(NSEC_PER_SEC))), queue.dispatchQueue, closure)
+    case .delay(let seconds):
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, Int64(seconds * Double(NSEC_PER_SEC))), queue.dispatchQueue, closure)
     }
 }
