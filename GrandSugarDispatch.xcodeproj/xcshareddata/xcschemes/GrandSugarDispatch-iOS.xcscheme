@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8829FA621CC1428D000BE4D0"
-               BuildableName = "GrandSugarDispatch.framework"
-               BlueprintName = "GrandSugarDispatch"
+               BuildableName = "GrandSugarDispatch-iOS.framework"
+               BlueprintName = "GrandSugarDispatch-iOS"
                ReferencedContainer = "container:GrandSugarDispatch.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -44,8 +44,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8829FA621CC1428D000BE4D0"
-            BuildableName = "GrandSugarDispatch.framework"
-            BlueprintName = "GrandSugarDispatch"
+            BuildableName = "GrandSugarDispatch-iOS.framework"
+            BlueprintName = "GrandSugarDispatch-iOS"
             ReferencedContainer = "container:GrandSugarDispatch.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -66,8 +66,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8829FA621CC1428D000BE4D0"
-            BuildableName = "GrandSugarDispatch.framework"
-            BlueprintName = "GrandSugarDispatch"
+            BuildableName = "GrandSugarDispatch-iOS.framework"
+            BlueprintName = "GrandSugarDispatch-iOS"
             ReferencedContainer = "container:GrandSugarDispatch.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -84,8 +84,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8829FA621CC1428D000BE4D0"
-            BuildableName = "GrandSugarDispatch.framework"
-            BlueprintName = "GrandSugarDispatch"
+            BuildableName = "GrandSugarDispatch-iOS.framework"
+            BlueprintName = "GrandSugarDispatch-iOS"
             ReferencedContainer = "container:GrandSugarDispatch.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

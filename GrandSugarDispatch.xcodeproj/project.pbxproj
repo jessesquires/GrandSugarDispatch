@@ -103,9 +103,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		8829FA621CC1428D000BE4D0 /* GrandSugarDispatch */ = {
+		8829FA621CC1428D000BE4D0 /* GrandSugarDispatch-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8829FA771CC1428D000BE4D0 /* Build configuration list for PBXNativeTarget "GrandSugarDispatch" */;
+			buildConfigurationList = 8829FA771CC1428D000BE4D0 /* Build configuration list for PBXNativeTarget "GrandSugarDispatch-iOS" */;
 			buildPhases = (
 				8829FA5E1CC1428D000BE4D0 /* Sources */,
 				8829FA5F1CC1428D000BE4D0 /* Frameworks */,
@@ -116,7 +116,7 @@
 			);
 			dependencies = (
 			);
-			name = GrandSugarDispatch;
+			name = "GrandSugarDispatch-iOS";
 			productName = GrandSugarDispatch;
 			productReference = 8829FA631CC1428D000BE4D0 /* GrandSugarDispatch.framework */;
 			productType = "com.apple.product-type.framework";
@@ -169,7 +169,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8829FA621CC1428D000BE4D0 /* GrandSugarDispatch */,
+				8829FA621CC1428D000BE4D0 /* GrandSugarDispatch-iOS */,
 				8829FA6C1CC1428D000BE4D0 /* GrandSugarDispatchTests */,
 			);
 		};
@@ -214,7 +214,7 @@
 /* Begin PBXTargetDependency section */
 		8829FA701CC1428D000BE4D0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8829FA621CC1428D000BE4D0 /* GrandSugarDispatch */;
+			target = 8829FA621CC1428D000BE4D0 /* GrandSugarDispatch-iOS */;
 			targetProxy = 8829FA6F1CC1428D000BE4D0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -323,7 +323,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hexedbits.GrandSugarDispatch;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME)";
+				PRODUCT_NAME = GrandSugarDispatch;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -340,7 +341,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hexedbits.GrandSugarDispatch;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME)";
+				PRODUCT_NAME = GrandSugarDispatch;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -377,7 +379,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8829FA771CC1428D000BE4D0 /* Build configuration list for PBXNativeTarget "GrandSugarDispatch" */ = {
+		8829FA771CC1428D000BE4D0 /* Build configuration list for PBXNativeTarget "GrandSugarDispatch-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8829FA781CC1428D000BE4D0 /* Debug */,
