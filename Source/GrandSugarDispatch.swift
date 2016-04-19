@@ -19,7 +19,9 @@
 
 import Foundation
 
-
+/**
+ Describes the concurrency type of a dispatch queue.
+ */
 public enum Concurrency {
     case async
     case sync
@@ -29,15 +31,41 @@ public enum Concurrency {
 }
 
 
+/**
+ Describes the type of dispatch queue.
+ */
 public enum DispatchQueue {
+    /// The serial dispatch queue associated with the application’s main thread.
     case main
+
+    /// A system-defined global concurrent queue with a "user interactive" quality of service.
     case userInteractive
+
+    /// A system-defined global concurrent queue with a "user initiated" quality of service.
     case userInitiated
+
+    /// A system-defined global concurrent queue with a default quality of service.
     case regular
+
+    /// A system-defined global concurrent queue with a "utility" quality of service.
     case utility
+
+    /// A system-defined global concurrent queue with a "background" quality of service.
     case background
-    case concurrent(String)
-    case serial(String)
+
+    /**
+     A new concurrent dispatch queue to which blocks can be submitted.
+
+     - parameter label: A label to attach to the queue to uniquely identify it.
+     */
+    case concurrent(label: String)
+
+    /**
+     A new serial dispatch queue to which blocks can be submitted.
+
+     - parameter label: A label to attach to the queue to uniquely identify it.
+     */
+    case serial(label: String)
 
     var dispatchQueue: dispatch_queue_t {
         switch self {
