@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "887B30AE1CC69669007BC660"
-               BuildableName = "GrandSugarDispatch.framework"
-               BlueprintName = "GrandSugarDispatch-watchOS"
+               BlueprintIdentifier = "887B30CA1CC6980B007BC660"
+               BuildableName = "GrandSugarDispatch-tvOS.framework"
+               BlueprintName = "GrandSugarDispatch-tvOS"
                ReferencedContainer = "container:GrandSugarDispatch.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "887B30AE1CC69669007BC660"
-            BuildableName = "GrandSugarDispatch.framework"
-            BlueprintName = "GrandSugarDispatch-watchOS"
+            BlueprintIdentifier = "887B30CA1CC6980B007BC660"
+            BuildableName = "GrandSugarDispatch-tvOS.framework"
+            BlueprintName = "GrandSugarDispatch-tvOS"
             ReferencedContainer = "container:GrandSugarDispatch.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "887B30AE1CC69669007BC660"
-            BuildableName = "GrandSugarDispatch.framework"
-            BlueprintName = "GrandSugarDispatch-watchOS"
+            BlueprintIdentifier = "887B30CA1CC6980B007BC660"
+            BuildableName = "GrandSugarDispatch-tvOS.framework"
+            BlueprintName = "GrandSugarDispatch-tvOS"
             ReferencedContainer = "container:GrandSugarDispatch.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
