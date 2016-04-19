@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>GrandSugarDispatch  Reference</title>
+    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a title="GrandSugarDispatch  Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="index.html">GrandSugarDispatch Docs</a> (62% documented)</p>
+        <p class="header-right"><a href="https://github.com/jessesquires/GrandSugarDispatch"><img src="img/gh.png"/>View on GitHub</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="index.html">GrandSugarDispatch Reference</a>
+        <img id="carat" src="img/carat.png" />
+        GrandSugarDispatch  Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="Enums.html">Enums</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Enums/Concurrency.html">Concurrency</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/DispatchQueue.html">DispatchQueue</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Functions.html">Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F18GrandSugarDispatch8dispatchFT5queueOS_13DispatchQueue11concurrencyOS_11Concurrency7closureFT_T__T_">dispatch(queue:concurrency:closure:)</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            
+            <a href='#grandsugardispatch' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h1 id='grandsugardispatch'>GrandSugarDispatch</h1>
+
+<p><a href="http://travis-ci.org/jessesquires/GrandSugarDispatch"><img src="https://secure.travis-ci.org/jessesquires/GrandSugarDispatch.svg" alt="Build Status"></a> <a href="https://cocoapods.org/pods/GrandSugarDispatch"><img src="https://img.shields.io/cocoapods/v/GrandSugarDispatch.svg" alt="Version Status"></a> <a href="http://opensource.org/licenses/MIT"><img src="https://img.shields.io/cocoapods/l/GrandSugarDispatch.svg" alt="license MIT"></a> <a href="http://codecov.io/github/jessesquires/GrandSugarDispatch"><img src="https://img.shields.io/codecov/c/github/jessesquires/GrandSugarDispatch.svg" alt="codecov.io"></a> <a href="http://www.jessesquires.com/GrandSugarDispatch"><img src="https://img.shields.io/cocoapods/p/GrandSugarDispatch.svg" alt="Platform"></a> <a href="https://github.com/Carthage/Carthage"><img src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat" alt="Carthage compatible"></a></p>
+
+<p><em>Syntactic sugar for Grand Central Dispatch (GCD)</em></p>
+<a href='#about' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h2 id='about'>About</h2>
+
+<p>This library is a lightweight <em>Swifty</em> wrapper around GCD.</p>
+<a href='#requirements' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h2 id='requirements'>Requirements</h2>
+
+<ul>
+<li>Xcode 7.3+</li>
+<li>iOS 8.0+</li>
+<li>OSX 10.10+</li>
+<li>tvOS 9.1+</li>
+<li>watchOS 2.0+</li>
+<li>Swift 2.2+</li>
+</ul>
+<a href='#installation' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h2 id='installation'>Installation</h2>
+<a href='#a_href_http_cocoapods_org_cocoapods_a_recommended' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h4 id='a_href_http_cocoapods_org_cocoapods_a_recommended'><a href="http://cocoapods.org">CocoaPods</a> (recommended)</h4>
+<pre class="highlight ruby"><code><span class="n">use_frameworks!</span>
+
+<span class="c1"># For latest release in cocoapods</span>
+<span class="n">pod</span> <span class="s1">'GrandSugarDispatch'</span>
+
+<span class="c1"># Feeling adventurous? Get the latest on develop</span>
+<span class="n">pod</span> <span class="s1">'GrandSugarDispatch'</span><span class="p">,</span> <span class="ss">:git</span> <span class="o">=&gt;</span> <span class="s1">'https://github.com/jessesquires/GrandSugarDispatch.git'</span><span class="p">,</span> <span class="ss">:branch</span> <span class="o">=&gt;</span> <span class="s1">'develop'</span>
+</code></pre>
+<a href='#a_href_https_github_com_carthage_carthage_carthage_a' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h4 id='a_href_https_github_com_carthage_carthage_carthage_a'><a href="https://github.com/Carthage/Carthage">Carthage</a></h4>
+<pre class="highlight shell"><code>github <span class="s2">"jessesquires/GrandSugarDispatch"</span>
+</code></pre>
+<a href='#documentation' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h2 id='documentation'>Documentation</h2>
+
+<p>Read the <a href="http://www.jessesquires.com/GrandSugarDispatch">docs</a>. Generated with <a href="https://github.com/realm/jazzy">jazzy</a>. Hosted by <a href="https://pages.github.com">GitHub Pages</a>. More information on the <a href="https://github.com/jessesquires/GrandSugarDispatch/tree/gh-pages"><code>gh-pages</code></a> branch.</p>
+<a href='#getting_started' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h2 id='getting_started'>Getting Started</h2>
+<pre class="highlight swift"><code><span class="kd">import</span> <span class="kt">GrandSugarDispatch</span>
+</code></pre>
+<a href='#example_usage' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h4 id='example_usage'>Example usage</h4>
+<pre class="highlight swift"><code><span class="nf">dispatch</span><span class="p">(</span><span class="nv">queue</span><span class="p">:</span> <span class="o">.</span><span class="n">main</span><span class="p">)</span> <span class="p">{</span>
+    <span class="c1">// perform task asynchronously on main queue</span>
+<span class="p">}</span>
+
+<span class="nf">dispatch</span><span class="p">(</span><span class="nv">queue</span><span class="p">:</span> <span class="o">.</span><span class="n">utility</span><span class="p">,</span> <span class="nv">concurrency</span><span class="p">:</span> <span class="o">.</span><span class="n">sync</span><span class="p">)</span> <span class="p">{</span>
+    <span class="c1">// perform task *synchronously* on background utility (quality of service) queue</span>
+<span class="p">}</span>
+
+<span class="nf">dispatch</span><span class="p">(</span><span class="nv">queue</span><span class="p">:</span> <span class="o">.</span><span class="n">background</span><span class="p">,</span> <span class="nv">concurrency</span><span class="p">:</span> <span class="o">.</span><span class="nf">delay</span><span class="p">(</span><span class="mf">0.3</span><span class="p">))</span> <span class="p">{</span>
+    <span class="c1">// perform task on background queue, after a 0.3 second delay</span>
+<span class="p">}</span>
+</code></pre>
+<a href='#unit_tests' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h2 id='unit_tests'>Unit tests</h2>
+
+<p>There&rsquo;s a suite of unit tests for <code>GrandSugarDispatch.framework</code>. To run them, open <code>GrandSugarDispatch.xcodeproj</code>, select the <code>GrandSugarDispatchTests</code> scheme, then &#x2318;-U.</p>
+
+<p>These tests are well commented and serve as further documentation for how to use this library.</p>
+<a href='#contribute' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h2 id='contribute'>Contribute</h2>
+
+<p>Please follow these sweet <a href="https://github.com/jessesquires/HowToContribute">contribution guidelines</a>.</p>
+<a href='#credits' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h2 id='credits'>Credits</h2>
+
+<p>Created and maintained by <a href="https://twitter.com/jesse_squires"><strong>@jesse_squires</strong></a>.</p>
+<a href='#license' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h2 id='license'>License</h2>
+
+<p><code>GrandSugarDispatch</code> is released under an <a href="http://opensource.org/licenses/MIT">MIT License</a>. See <code>LICENSE</code> for details.</p>
+
+<blockquote>
+<p><strong>Copyright &copy; 2016-present Jesse Squires.</strong></p>
+</blockquote>
+
+<p><em>Please provide attribution, it is greatly appreciated.</em></p>
+
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2016 <a class="link" href="https://twitter.com/jesse_squires" target="_blank" rel="external">Jesse Squires</a>. All rights reserved. (Last updated: 2016-04-19)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.6.0</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
