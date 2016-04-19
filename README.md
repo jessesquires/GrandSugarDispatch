@@ -46,23 +46,19 @@ Read the [docs][docsLink]. Generated with [jazzy](https://github.com/realm/jazzy
 import GrandSugarDispatch
 ````
 
-> TODO
-
-## Usage
+#### Example usage
 
 ```swift
 dispatch(queue: .main) {
-    // Do something special on the main queue
-    // The concurrency is automatically set to .async
+    // perform task asynchronously on main queue
 }
 
-dispatch(queue: .main, concurrency: .sync) {
-    // Same as above, but with another concurrency
+dispatch(queue: .utility, concurrency: .sync) {
+    // perform task *synchronously* on background utility (quality of service) queue
 }
 
 dispatch(queue: .background, concurrency: .delay(0.3)) {
-    // Performs an action on the background queue
-    // after a 0.3 second delay
+    // perform task on background queue, after a 0.3 second delay
 }
 ```
 
