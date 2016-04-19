@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8829FA621CC1428D000BE4D0"
-               BuildableName = "GrandSugarDispatch.framework"
-               BlueprintName = "GrandSugarDispatch-iOS"
+               BlueprintIdentifier = "887B309F1CC69592007BC660"
+               BuildableName = "GrandSugarDispatch-OSX.framework"
+               BlueprintName = "GrandSugarDispatch-OSX"
                ReferencedContainer = "container:GrandSugarDispatch.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -26,29 +26,9 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      codeCoverageEnabled = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8829FA6C1CC1428D000BE4D0"
-               BuildableName = "GrandSugarDispatchTests.xctest"
-               BlueprintName = "GrandSugarDispatchTests"
-               ReferencedContainer = "container:GrandSugarDispatch.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8829FA621CC1428D000BE4D0"
-            BuildableName = "GrandSugarDispatch.framework"
-            BlueprintName = "GrandSugarDispatch-iOS"
-            ReferencedContainer = "container:GrandSugarDispatch.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -65,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8829FA621CC1428D000BE4D0"
-            BuildableName = "GrandSugarDispatch.framework"
-            BlueprintName = "GrandSugarDispatch-iOS"
+            BlueprintIdentifier = "887B309F1CC69592007BC660"
+            BuildableName = "GrandSugarDispatch-OSX.framework"
+            BlueprintName = "GrandSugarDispatch-OSX"
             ReferencedContainer = "container:GrandSugarDispatch.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -83,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8829FA621CC1428D000BE4D0"
-            BuildableName = "GrandSugarDispatch.framework"
-            BlueprintName = "GrandSugarDispatch-iOS"
+            BlueprintIdentifier = "887B309F1CC69592007BC660"
+            BuildableName = "GrandSugarDispatch-OSX.framework"
+            BlueprintName = "GrandSugarDispatch-OSX"
             ReferencedContainer = "container:GrandSugarDispatch.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
