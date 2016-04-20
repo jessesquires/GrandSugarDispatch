@@ -12,7 +12,7 @@ This library is a lightweight *Swifty* wrapper around GCD.
 * Xcode 7.3+
 * iOS 8.0+
 * OSX 10.10+
-* tvOS 9.1+
+* tvOS 9.0+
 * watchOS 2.0+
 * Swift 2.2+
 
