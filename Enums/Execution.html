@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Execution Enum Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Enum/Execution" class="dashAnchor"></a>
+    <a title="Execution Enum Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">GrandSugarDispatch Docs</a> (100% documented)</p>
+        <p class="header-right"><a href="https://github.com/jessesquires/GrandSugarDispatch"><img src="../img/gh.png"/>View on GitHub</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">GrandSugarDispatch Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        Execution Enum Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enums</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/Concurrency.html">Concurrency</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DispatchQueue.html">DispatchQueue</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Execution.html">Execution</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Functions.html">Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F18GrandSugarDispatch8dispatchFT5queueOS_13DispatchQueue9executionOS_9Execution7closureFT_T__T_">dispatch(queue:execution:closure:)</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>Execution</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">Execution</span></code></pre>
+
+                </div>
+              </div>
+            <p>Describes the execution type of a dispatch queue.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FO18GrandSugarDispatch9Execution5asyncFMS0_S0_"></a>
+                    <a name="//apple_ref/swift/Element/async" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FO18GrandSugarDispatch9Execution5asyncFMS0_S0_">async</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Submits a closure for asynchronous execution on a dispatch queue and returns immediately.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="k">as</span><span class="n">ync</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FO18GrandSugarDispatch9Execution4syncFMS0_S0_"></a>
+                    <a name="//apple_ref/swift/Element/sync" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FO18GrandSugarDispatch9Execution4syncFMS0_S0_">sync</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Submits a closure for synchronous execution on a dispatch queue and waits until that closure completes.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="n">sync</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FO18GrandSugarDispatch9Execution12barrierAsyncFMS0_S0_"></a>
+                    <a name="//apple_ref/swift/Element/barrierAsync" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FO18GrandSugarDispatch9Execution12barrierAsyncFMS0_S0_">barrierAsync</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Submits a barrier closure for asynchronous execution and returns immediately.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="n">barrierAsync</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FO18GrandSugarDispatch9Execution11barrierSyncFMS0_S0_"></a>
+                    <a name="//apple_ref/swift/Element/barrierSync" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FO18GrandSugarDispatch9Execution11barrierSyncFMS0_S0_">barrierSync</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Submits a barrier closure for synchronous execution and waits until that closure completes.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="n">barrierSync</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FO18GrandSugarDispatch9Execution5delayFMS0_FT7secondsSd_S0_"></a>
+                    <a name="//apple_ref/swift/Element/delay" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FO18GrandSugarDispatch9Execution5delayFMS0_FT7secondsSd_S0_">delay</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Enqueue a closure for execution after the specified delay in seconds.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="nf">delay</span><span class="p">(</span><span class="nv">seconds</span><span class="p">:</span> <span class="kt">Double</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>seconds</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The time in seconds after which the closure should execute.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2016 <a class="link" href="https://twitter.com/jesse_squires" target="_blank" rel="external">Jesse Squires</a>. All rights reserved. (Last updated: 2016-04-19)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.6.0</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
