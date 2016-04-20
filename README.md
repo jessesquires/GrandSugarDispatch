@@ -53,11 +53,11 @@ dispatch(queue: .main) {
     // perform task asynchronously on main queue
 }
 
-dispatch(queue: .utility, concurrency: .sync) {
+dispatch(queue: .utility, execution: .sync) {
     // perform task *synchronously* on background utility (quality of service) queue
 }
 
-dispatch(queue: .background, concurrency: .delay(0.3)) {
+dispatch(queue: .background, execution: .delay(0.3)) {
     // perform task on background queue, after a 0.3 second delay
 }
 ```
