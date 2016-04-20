@@ -19,14 +19,28 @@
 
 import Foundation
 
+
 /**
  Describes the concurrency type of a dispatch queue.
  */
 public enum Concurrency {
+    /// Submits a closure for asynchronous execution on a dispatch queue and returns immediately.
     case async
+
+    /// Submits a closure for synchronous execution on a dispatch queue and waits until that closure completes.
     case sync
+
+    /// Submits a barrier closure for asynchronous execution and returns immediately.
     case barrierAsync
+
+    /// Submits a barrier closure for synchronous execution and waits until that closure completes.
     case barrierSync
+
+    /**
+     Enqueue a closure for execution after the specified delay in seconds.
+
+     - parameter seconds: The time in seconds after which the closure should execute.
+     */
     case delay(seconds: Double)
 }
 
@@ -54,14 +68,14 @@ public enum DispatchQueue {
     case background
 
     /**
-     A new concurrent dispatch queue to which blocks can be submitted.
+     A new concurrent dispatch queue to which closures can be submitted.
 
      - parameter label: A label to attach to the queue to uniquely identify it.
      */
     case concurrent(label: String)
 
     /**
-     A new serial dispatch queue to which blocks can be submitted.
+     A new serial dispatch queue to which closures can be submitted.
 
      - parameter label: A label to attach to the queue to uniquely identify it.
      */
