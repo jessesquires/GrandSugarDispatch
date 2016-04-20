@@ -97,11 +97,11 @@
     <span class="c1">// perform task asynchronously on main queue</span>
 <span class="p">}</span>
 
-<span class="nf">dispatch</span><span class="p">(</span><span class="nv">queue</span><span class="p">:</span> <span class="o">.</span><span class="n">utility</span><span class="p">,</span> <span class="nv">concurrency</span><span class="p">:</span> <span class="o">.</span><span class="n">sync</span><span class="p">)</span> <span class="p">{</span>
+<span class="nf">dispatch</span><span class="p">(</span><span class="nv">queue</span><span class="p">:</span> <span class="o">.</span><span class="n">utility</span><span class="p">,</span> <span class="nv">execution</span><span class="p">:</span> <span class="o">.</span><span class="n">sync</span><span class="p">)</span> <span class="p">{</span>
     <span class="c1">// perform task *synchronously* on background utility (quality of service) queue</span>
 <span class="p">}</span>
 
-<span class="nf">dispatch</span><span class="p">(</span><span class="nv">queue</span><span class="p">:</span> <span class="o">.</span><span class="n">background</span><span class="p">,</span> <span class="nv">concurrency</span><span class="p">:</span> <span class="o">.</span><span class="nf">delay</span><span class="p">(</span><span class="mf">0.3</span><span class="p">))</span> <span class="p">{</span>
+<span class="nf">dispatch</span><span class="p">(</span><span class="nv">queue</span><span class="p">:</span> <span class="o">.</span><span class="n">background</span><span class="p">,</span> <span class="nv">execution</span><span class="p">:</span> <span class="o">.</span><span class="nf">delay</span><span class="p">(</span><span class="mf">0.3</span><span class="p">))</span> <span class="p">{</span>
     <span class="c1">// perform task on background queue, after a 0.3 second delay</span>
 <span class="p">}</span>
 </code></pre>
