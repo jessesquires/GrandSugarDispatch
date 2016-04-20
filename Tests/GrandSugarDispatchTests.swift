@@ -21,11 +21,87 @@ import XCTest
 
 @testable import GrandSugarDispatch
 
+let timeout = NSTimeInterval(30)
+
 
 final class GrandSugarDispatchTests: XCTestCase {
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func test_thatMainQueue_executesAsynchronously() {
+        let expectation = expectationWithDescription(#function)
+
+        dispatch(queue: .main, concurrency: .async) {
+            XCTAssertTrue(NSThread.isMainThread())
+            expectation.fulfill()
+        }
+
+        waitForExpectationsWithTimeout(timeout) { (error) in
+            XCTAssertNil(error)
+        }
     }
+
+    func test_thatUserInteractiveQueue_executesAsynchronously() {
+        let expectation = expectationWithDescription(#function)
+
+        dispatch(queue: .userInteractive, concurrency: .async) {
+            XCTAssertFalse(NSThread.isMainThread())
+            expectation.fulfill()
+        }
+
+        waitForExpectationsWithTimeout(timeout) { (error) in
+            XCTAssertNil(error)
+        }
+    }
+
+    func test_thatUserInitiatedQueue_executesAsynchronously() {
+        let expectation = expectationWithDescription(#function)
+
+        dispatch(queue: .userInitiated, concurrency: .async) {
+            XCTAssertFalse(NSThread.isMainThread())
+            expectation.fulfill()
+        }
+
+        waitForExpectationsWithTimeout(timeout) { (error) in
+            XCTAssertNil(error)
+        }
+    }
+
+    func test_thatDefaultQueue_executesAsynchronously() {
+        let expectation = expectationWithDescription(#function)
+
+        dispatch(queue: .regular, concurrency: .async) {
+            XCTAssertFalse(NSThread.isMainThread())
+            expectation.fulfill()
+        }
+
+        waitForExpectationsWithTimeout(timeout) { (error) in
+            XCTAssertNil(error)
+        }
+    }
+    
+    func test_thatUtilityQueue_executesAsynchronously() {
+        let expectation = expectationWithDescription(#function)
+
+        dispatch(queue: .utility, concurrency: .async) {
+            XCTAssertFalse(NSThread.isMainThread())
+            expectation.fulfill()
+        }
+
+        waitForExpectationsWithTimeout(timeout) { (error) in
+            XCTAssertNil(error)
+        }
+    }
+
+    func test_thatBackgroundQueue_executesAsynchronously() {
+        let expectation = expectationWithDescription(#function)
+
+        dispatch(queue: .background, concurrency: .async) {
+            XCTAssertFalse(NSThread.isMainThread())
+            expectation.fulfill()
+        }
+
+        waitForExpectationsWithTimeout(timeout) { (error) in
+            XCTAssertNil(error)
+        }
+    }
+
 }
