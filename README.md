@@ -5,7 +5,7 @@
 
 ## About
 
-This library is a lightweight *Swifty* wrapper around GCD.
+This library is *Swifty* wrapper around GCD. The design goals are to be small, simple, and make GCD slightly more friendly to use in Swift. For something more advanced with features like chaining, you should use [Async](https://github.com/duemunk/Async).
 
 ## Requirements
 
