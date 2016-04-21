@@ -16,9 +16,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8829FA6C1CC1428D000BE4D0"
-               BuildableName = "GrandSugarDispatchTests.xctest"
-               BlueprintName = "GrandSugarDispatchTests"
+               BlueprintIdentifier = "888FF5521CC92FE600AF15CE"
+               BuildableName = "GrandSugarDispatchTests-OSX.xctest"
+               BlueprintName = "GrandSugarDispatchTests-OSX"
                ReferencedContainer = "container:GrandSugarDispatch.xcodeproj">
             </BuildableReference>
          </TestableReference>

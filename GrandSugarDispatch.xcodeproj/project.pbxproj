@@ -8,15 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		8829FA6E1CC1428D000BE4D0 /* GrandSugarDispatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8829FA631CC1428D000BE4D0 /* GrandSugarDispatch.framework */; };
-		8829FA801CC142C7000BE4D0 /* GrandSugarDispatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 8829FA7E1CC142C7000BE4D0 /* GrandSugarDispatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8829FA881CC14321000BE4D0 /* GrandSugarDispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8829FA871CC14321000BE4D0 /* GrandSugarDispatch.swift */; };
 		8829FA891CC145DD000BE4D0 /* GrandSugarDispatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8829FA831CC142D0000BE4D0 /* GrandSugarDispatchTests.swift */; };
-		887B30A81CC695B5007BC660 /* GrandSugarDispatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 8829FA7E1CC142C7000BE4D0 /* GrandSugarDispatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		887B30A91CC695BC007BC660 /* GrandSugarDispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8829FA871CC14321000BE4D0 /* GrandSugarDispatch.swift */; };
-		887B30B71CC696F2007BC660 /* GrandSugarDispatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 8829FA7E1CC142C7000BE4D0 /* GrandSugarDispatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		887B30B81CC696F9007BC660 /* GrandSugarDispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8829FA871CC14321000BE4D0 /* GrandSugarDispatch.swift */; };
-		887B30D31CC69859007BC660 /* GrandSugarDispatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 8829FA7E1CC142C7000BE4D0 /* GrandSugarDispatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		887B30D41CC69862007BC660 /* GrandSugarDispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8829FA871CC14321000BE4D0 /* GrandSugarDispatch.swift */; };
+		888FF5471CC92F5300AF15CE /* GrandSugarDispatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 888FF5441CC92F4B00AF15CE /* GrandSugarDispatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		888FF5481CC92F5400AF15CE /* GrandSugarDispatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 888FF5441CC92F4B00AF15CE /* GrandSugarDispatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		888FF5491CC92F5400AF15CE /* GrandSugarDispatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 888FF5441CC92F4B00AF15CE /* GrandSugarDispatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		888FF54A1CC92F5500AF15CE /* GrandSugarDispatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 888FF5441CC92F4B00AF15CE /* GrandSugarDispatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		888FF54B1CC92F6100AF15CE /* GrandSugarDispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888FF5451CC92F4B00AF15CE /* GrandSugarDispatch.swift */; };
+		888FF54C1CC92F6100AF15CE /* GrandSugarDispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888FF5451CC92F4B00AF15CE /* GrandSugarDispatch.swift */; };
+		888FF54D1CC92F6200AF15CE /* GrandSugarDispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888FF5451CC92F4B00AF15CE /* GrandSugarDispatch.swift */; };
+		888FF54E1CC92F6300AF15CE /* GrandSugarDispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888FF5451CC92F4B00AF15CE /* GrandSugarDispatch.swift */; };
+		888FF5581CC92FE600AF15CE /* GrandSugarDispatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 887B30A01CC69592007BC660 /* GrandSugarDispatch.framework */; };
+		888FF55E1CC9301B00AF15CE /* GrandSugarDispatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8829FA831CC142D0000BE4D0 /* GrandSugarDispatchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +29,27 @@
 			remoteGlobalIDString = 8829FA621CC1428D000BE4D0;
 			remoteInfo = GrandSugarDispatch;
 		};
+		888FF5591CC92FE600AF15CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8829FA5A1CC1428D000BE4D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 887B309F1CC69592007BC660;
+			remoteInfo = "GrandSugarDispatch-OSX";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		8829FA631CC1428D000BE4D0 /* GrandSugarDispatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GrandSugarDispatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8829FA6D1CC1428D000BE4D0 /* GrandSugarDispatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrandSugarDispatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8829FA7E1CC142C7000BE4D0 /* GrandSugarDispatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrandSugarDispatch.h; sourceTree = "<group>"; };
-		8829FA7F1CC142C7000BE4D0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8829FA6D1CC1428D000BE4D0 /* GrandSugarDispatchTests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GrandSugarDispatchTests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8829FA831CC142D0000BE4D0 /* GrandSugarDispatchTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrandSugarDispatchTests.swift; sourceTree = "<group>"; };
 		8829FA841CC142D0000BE4D0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8829FA871CC14321000BE4D0 /* GrandSugarDispatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrandSugarDispatch.swift; sourceTree = "<group>"; };
 		887B30A01CC69592007BC660 /* GrandSugarDispatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GrandSugarDispatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		887B30AF1CC69669007BC660 /* GrandSugarDispatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GrandSugarDispatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		887B30CB1CC6980B007BC660 /* GrandSugarDispatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GrandSugarDispatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		888FF5441CC92F4B00AF15CE /* GrandSugarDispatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GrandSugarDispatch.h; sourceTree = "<group>"; };
+		888FF5451CC92F4B00AF15CE /* GrandSugarDispatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrandSugarDispatch.swift; sourceTree = "<group>"; };
+		888FF5461CC92F4B00AF15CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		888FF5531CC92FE600AF15CE /* GrandSugarDispatchTests-OSX.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GrandSugarDispatchTests-OSX.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,13 +89,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		888FF5501CC92FE600AF15CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				888FF5581CC92FE600AF15CE /* GrandSugarDispatch.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		8829FA591CC1428D000BE4D0 = {
 			isa = PBXGroup;
 			children = (
-				8829FA7D1CC142C7000BE4D0 /* Source */,
+				888FF5431CC92F4B00AF15CE /* Sources */,
 				8829FA821CC142D0000BE4D0 /* Tests */,
 				8829FA641CC1428D000BE4D0 /* Products */,
 			);
@@ -95,22 +113,13 @@
 			isa = PBXGroup;
 			children = (
 				8829FA631CC1428D000BE4D0 /* GrandSugarDispatch.framework */,
-				8829FA6D1CC1428D000BE4D0 /* GrandSugarDispatchTests.xctest */,
+				8829FA6D1CC1428D000BE4D0 /* GrandSugarDispatchTests-iOS.xctest */,
 				887B30A01CC69592007BC660 /* GrandSugarDispatch.framework */,
 				887B30AF1CC69669007BC660 /* GrandSugarDispatch.framework */,
 				887B30CB1CC6980B007BC660 /* GrandSugarDispatch.framework */,
+				888FF5531CC92FE600AF15CE /* GrandSugarDispatchTests-OSX.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		8829FA7D1CC142C7000BE4D0 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				8829FA7E1CC142C7000BE4D0 /* GrandSugarDispatch.h */,
-				8829FA871CC14321000BE4D0 /* GrandSugarDispatch.swift */,
-				8829FA7F1CC142C7000BE4D0 /* Info.plist */,
-			);
-			path = Source;
 			sourceTree = "<group>";
 		};
 		8829FA821CC142D0000BE4D0 /* Tests */ = {
@@ -122,6 +131,16 @@
 			path = Tests;
 			sourceTree = "<group>";
 		};
+		888FF5431CC92F4B00AF15CE /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				888FF5441CC92F4B00AF15CE /* GrandSugarDispatch.h */,
+				888FF5451CC92F4B00AF15CE /* GrandSugarDispatch.swift */,
+				888FF5461CC92F4B00AF15CE /* Info.plist */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -129,7 +148,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8829FA801CC142C7000BE4D0 /* GrandSugarDispatch.h in Headers */,
+				888FF5471CC92F5300AF15CE /* GrandSugarDispatch.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +156,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				887B30A81CC695B5007BC660 /* GrandSugarDispatch.h in Headers */,
+				888FF5481CC92F5400AF15CE /* GrandSugarDispatch.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,7 +164,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				887B30B71CC696F2007BC660 /* GrandSugarDispatch.h in Headers */,
+				888FF5491CC92F5400AF15CE /* GrandSugarDispatch.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,7 +172,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				887B30D31CC69859007BC660 /* GrandSugarDispatch.h in Headers */,
+				888FF54A1CC92F5500AF15CE /* GrandSugarDispatch.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,9 +197,9 @@
 			productReference = 8829FA631CC1428D000BE4D0 /* GrandSugarDispatch.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		8829FA6C1CC1428D000BE4D0 /* GrandSugarDispatchTests */ = {
+		8829FA6C1CC1428D000BE4D0 /* GrandSugarDispatchTests-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8829FA7A1CC1428D000BE4D0 /* Build configuration list for PBXNativeTarget "GrandSugarDispatchTests" */;
+			buildConfigurationList = 8829FA7A1CC1428D000BE4D0 /* Build configuration list for PBXNativeTarget "GrandSugarDispatchTests-iOS" */;
 			buildPhases = (
 				8829FA691CC1428D000BE4D0 /* Sources */,
 				8829FA6A1CC1428D000BE4D0 /* Frameworks */,
@@ -191,9 +210,9 @@
 			dependencies = (
 				8829FA701CC1428D000BE4D0 /* PBXTargetDependency */,
 			);
-			name = GrandSugarDispatchTests;
+			name = "GrandSugarDispatchTests-iOS";
 			productName = GrandSugarDispatchTests;
-			productReference = 8829FA6D1CC1428D000BE4D0 /* GrandSugarDispatchTests.xctest */;
+			productReference = 8829FA6D1CC1428D000BE4D0 /* GrandSugarDispatchTests-iOS.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		887B309F1CC69592007BC660 /* GrandSugarDispatch-OSX */ = {
@@ -250,6 +269,24 @@
 			productReference = 887B30CB1CC6980B007BC660 /* GrandSugarDispatch.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		888FF5521CC92FE600AF15CE /* GrandSugarDispatchTests-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 888FF55B1CC92FE600AF15CE /* Build configuration list for PBXNativeTarget "GrandSugarDispatchTests-OSX" */;
+			buildPhases = (
+				888FF54F1CC92FE600AF15CE /* Sources */,
+				888FF5501CC92FE600AF15CE /* Frameworks */,
+				888FF5511CC92FE600AF15CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				888FF55A1CC92FE600AF15CE /* PBXTargetDependency */,
+			);
+			name = "GrandSugarDispatchTests-OSX";
+			productName = "GrandSugarDispatchTests-OSX";
+			productReference = 888FF5531CC92FE600AF15CE /* GrandSugarDispatchTests-OSX.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -275,6 +312,9 @@
 					887B30CA1CC6980B007BC660 = {
 						CreatedOnToolsVersion = 7.3;
 					};
+					888FF5521CC92FE600AF15CE = {
+						CreatedOnToolsVersion = 7.3;
+					};
 				};
 			};
 			buildConfigurationList = 8829FA5D1CC1428D000BE4D0 /* Build configuration list for PBXProject "GrandSugarDispatch" */;
@@ -293,7 +333,8 @@
 				887B309F1CC69592007BC660 /* GrandSugarDispatch-OSX */,
 				887B30AE1CC69669007BC660 /* GrandSugarDispatch-watchOS */,
 				887B30CA1CC6980B007BC660 /* GrandSugarDispatch-tvOS */,
-				8829FA6C1CC1428D000BE4D0 /* GrandSugarDispatchTests */,
+				8829FA6C1CC1428D000BE4D0 /* GrandSugarDispatchTests-iOS */,
+				888FF5521CC92FE600AF15CE /* GrandSugarDispatchTests-OSX */,
 			);
 		};
 /* End PBXProject section */
@@ -334,6 +375,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		888FF5511CC92FE600AF15CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -341,7 +389,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8829FA881CC14321000BE4D0 /* GrandSugarDispatch.swift in Sources */,
+				888FF54B1CC92F6100AF15CE /* GrandSugarDispatch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,7 +405,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				887B30A91CC695BC007BC660 /* GrandSugarDispatch.swift in Sources */,
+				888FF54C1CC92F6100AF15CE /* GrandSugarDispatch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,7 +413,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				887B30B81CC696F9007BC660 /* GrandSugarDispatch.swift in Sources */,
+				888FF54D1CC92F6200AF15CE /* GrandSugarDispatch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,7 +421,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				887B30D41CC69862007BC660 /* GrandSugarDispatch.swift in Sources */,
+				888FF54E1CC92F6300AF15CE /* GrandSugarDispatch.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		888FF54F1CC92FE600AF15CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				888FF55E1CC9301B00AF15CE /* GrandSugarDispatchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,6 +440,11 @@
 			isa = PBXTargetDependency;
 			target = 8829FA621CC1428D000BE4D0 /* GrandSugarDispatch-iOS */;
 			targetProxy = 8829FA6F1CC1428D000BE4D0 /* PBXContainerItemProxy */;
+		};
+		888FF55A1CC92FE600AF15CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 887B309F1CC69592007BC660 /* GrandSugarDispatch-OSX */;
+			targetProxy = 888FF5591CC92FE600AF15CE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -486,7 +547,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -504,7 +565,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -545,7 +606,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
@@ -566,7 +627,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
@@ -585,7 +646,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Source/Info.plist;
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hexedbits.GrandSugarDispatch-watchOS";
@@ -605,7 +666,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Source/Info.plist;
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hexedbits.GrandSugarDispatch-watchOS";
@@ -624,7 +685,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hexedbits.GrandSugarDispatch-tvOS";
@@ -643,7 +704,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hexedbits.GrandSugarDispatch-tvOS";
@@ -652,6 +713,34 @@
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		888FF55C1CC92FE600AF15CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hexedbits.GrandSugarDispatchTests-OSX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		888FF55D1CC92FE600AF15CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hexedbits.GrandSugarDispatchTests-OSX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -676,7 +765,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8829FA7A1CC1428D000BE4D0 /* Build configuration list for PBXNativeTarget "GrandSugarDispatchTests" */ = {
+		8829FA7A1CC1428D000BE4D0 /* Build configuration list for PBXNativeTarget "GrandSugarDispatchTests-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8829FA7B1CC1428D000BE4D0 /* Debug */,
@@ -708,6 +797,15 @@
 			buildConfigurations = (
 				887B30D01CC6980B007BC660 /* Debug */,
 				887B30D11CC6980B007BC660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		888FF55B1CC92FE600AF15CE /* Build configuration list for PBXNativeTarget "GrandSugarDispatchTests-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				888FF55C1CC92FE600AF15CE /* Debug */,
+				888FF55D1CC92FE600AF15CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

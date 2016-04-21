@@ -34,8 +34,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8829FA6C1CC1428D000BE4D0"
-               BuildableName = "GrandSugarDispatchTests.xctest"
-               BlueprintName = "GrandSugarDispatchTests"
+               BuildableName = "GrandSugarDispatchTests-iOS.xctest"
+               BlueprintName = "GrandSugarDispatchTests-iOS"
                ReferencedContainer = "container:GrandSugarDispatch.xcodeproj">
             </BuildableReference>
          </TestableReference>
