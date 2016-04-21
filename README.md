@@ -64,9 +64,7 @@ dispatch(queue: .background, execution: .delay(0.3)) {
 
 ## Unit tests
 
-There's a suite of unit tests for `GrandSugarDispatch.framework`. To run them, open `GrandSugarDispatch.xcodeproj`, select the `GrandSugarDispatchTests` scheme, then &#x2318;-U.
-
-These tests are well commented and serve as further documentation for how to use this library.
+There's a suite of unit tests for `GrandSugarDispatch`. Run them from Xcode by opening `GrandSugarDispatch.xcodeproj`. These tests are well commented and serve as further documentation for how to use this library.
 
 ## Contribute
 
