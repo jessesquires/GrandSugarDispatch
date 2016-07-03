@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
    s.name = 'GrandSugarDispatch'
-   s.version = '1.0.0'
+   s.version = '1.0.1'
    s.license = 'MIT'
 
    s.summary = 'Syntactic sugar for Grand Central Dispatch (GCD)'
@@ -18,4 +18,5 @@ Pod::Spec.new do |s|
    s.watchos.deployment_target = '2.0'
 
    s.requires_arc = true
+   s.deprecated = true
 end
