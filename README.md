@@ -1,4 +1,8 @@
-# GrandSugarDispatch
+# :warning: DEPRECATED :warning:
+
+As of Swift 3.0 and proposal [SE-0088](https://github.com/apple/swift-evolution/blob/master/proposals/0088-libdispatch-for-swift3.md), this library is no longer necessary.
+
+## GrandSugarDispatch
 [![Build Status](https://secure.travis-ci.org/jessesquires/GrandSugarDispatch.svg)](http://travis-ci.org/jessesquires/GrandSugarDispatch) [![Version Status](https://img.shields.io/cocoapods/v/GrandSugarDispatch.svg)][podLink] [![license MIT](https://img.shields.io/cocoapods/l/GrandSugarDispatch.svg)][mitLink] [![codecov](https://codecov.io/gh/jessesquires/GrandSugarDispatch/branch/develop/graph/badge.svg)](https://codecov.io/gh/jessesquires/GrandSugarDispatch) [![Platform](https://img.shields.io/cocoapods/p/GrandSugarDispatch.svg)][docsLink] [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 *Syntactic sugar for Grand Central Dispatch (GCD)*
@@ -14,7 +18,7 @@ This library is *Swifty* wrapper around GCD. The design goals are to be small, s
 * OSX 10.10+
 * tvOS 9.0+
 * watchOS 2.0+
-* Swift 2.2+
+* **Swift 2.2**
 
 ## Installation
 
